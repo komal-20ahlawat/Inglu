@@ -14,15 +14,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 60px;
+    padding: 10px 80px;
 }
 
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: #4da3ff;
+.logo img {
+    width: 80px;   
+    height: 100px;
+    object-fit: contain;
 }
-
 .nav-links {
     display: flex;
     gap: 30px;
